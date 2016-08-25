@@ -67,10 +67,10 @@ hr {
   font-size: 32px !important;
 }
 
-#work,#about, #team, #career 
-#portfolio, #pricing, #contact {
-   padding-top: 100px;
-  padding-bottom: 100px;
+#work,#about, #skilled, #student 
+#family, #investment, #contact {
+  padding-top: 50;
+  padding-bottom: 50;
 }
 
 
@@ -337,22 +337,82 @@ work section
 }
 
 /* ==========================================================================
-career section
+student section
 ========================================================================== */
-#career {
+#student {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
-#career .col-md-4 {
+#student .col-md-4 {
   padding: 28px;
   position: relative;
   transition: all 0.4s ease-in-out;
 }
-#career .col-md-4:hover {
+#student .col-md-4:hover {
   background-color: #ffffff;
   box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.20);
 }
-#career h3 {
+#student h3 {
+  font-size: 18px;
+}
+
+/* ==========================================================================
+skilled section
+========================================================================== */
+#skilled {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#skilled .col-md-4 {
+  padding: 28px;
+  position: relative;
+  transition: all 0.4s ease-in-out;
+}
+#skilled .col-md-4:hover {
+  background-color: #ffffff;
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.20);
+}
+#skilled h3 {
+  font-size: 18px;
+}
+
+/* ==========================================================================
+family section
+========================================================================== */
+#family {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#family .col-md-4 {
+  padding: 28px;
+  position: relative;
+  transition: all 0.4s ease-in-out;
+}
+#family .col-md-4:hover {
+  background-color: #ffffff;
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.20);
+}
+#family h3 {
+  font-size: 18px;
+}
+
+/* ==========================================================================
+invest section
+========================================================================== */
+#invest {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#invest .col-md-4 {
+  padding: 28px;
+  position: relative;
+  transition: all 0.4s ease-in-out;
+}
+#invest .col-md-4:hover {
+  background-color: #ffffff;
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.20);
+}
+#invest h3 {
   font-size: 18px;
 }
 
